@@ -5,7 +5,7 @@ function getEvents() {
   let month = $('#monthpicker').val("All");
   loadEvents().then(() => {
     findEvents();
-  })
+  });
 }
 
 $(document).ready(function() {
@@ -34,7 +34,7 @@ function createCard(cardInfo) {
         <i class="fa fa-bookmark" aria-hidden="true"></i>
     </div> 
     <label class="card-eventlabel">${cardInfo.name}</label>`;
-    return div
+    return div;
 }
 
 function findEvents() {
