@@ -1,0 +1,202 @@
+html {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+body {
+    font-style: 'Arial';
+    background: #F0F3FF;
+}
+.container{
+    max-width: 1440px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+}
+/* #content {
+    width: 1440px;
+    height: 1218px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+} */
+#eventlabel {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 66px;
+    color: #2E282C;
+    margin-top:100px;
+    margin-left: 100px;
+}
+#inputrow {
+    padding-top: 49px;
+    /* display: inline; */
+}
+.inputlabel {
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2E282C;
+    margin-right: 20px;
+}
+.city {
+    margin-left: 100px;
+}
+.month {
+    margin-left: 20px;
+}
+.btn.dropdown-toggle {
+    background-color: transparent;
+    border: 1px solid #444444;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2E282C;
+}
+.dropdown-select-values {
+    font-weight: 500;
+    font-size: 24px;
+    color: #2E282C;
+}
+.bootstrap-select {
+    min-width: 200px;
+}
+.eventcard {
+    margin-right: 20px;
+    width: 45%;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: black;
+    min-width: 240px;
+}
+#events {
+    margin-top: 42px;
+    margin-left: 80px;
+}
+.frontcard {
+    max-width: 600px;
+    height: 400px;
+}
+.cardimg{
+    width: 100%;
+    height: 100%;
+}
+.date {
+    /* height: 80px; */
+    min-width: 30px;
+    min-height: 30px;
+    color: transparent;
+    border: 2px solid white;
+    margin-top: 40px;
+    margin-left: 40px;
+    color:white;
+    font-size: 48px;
+    text-align: center;
+    display: inline-block;
+   width: 14%;
+    border-radius: 6px;
+    float: left;
+}
+.card-eventlabel {
+    color: white;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 66px;
+    display: block;
+    margin-left: 40px;
+    margin-top: 234px;
+}
+.fav-icon {
+    color: white;
+    text-align: end;
+    margin-right: 41px;
+    margin-top: 35px;
+}
+@media(max-width:992px) {
+    .container {
+        width: 760px;
+    }
+    .date {
+        font-size: 32px;
+    }
+    .card-eventlabel {
+        font-size: 32px;
+        line-height: normal;
+    }
+}
+@media(max-width:730px) {
+    .container {
+        width: 500px;
+    }
+    .date {
+        font-size: 32px;
+    }
+    .card-eventlabel {
+        font-size: 32px;
+    }
+    .eventcard {
+        width: 80%;
+    }
+    .inputlabel {
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+    #inputrow {
+        margin-left: auto;
+    }
+    .bootstrap-select {
+        min-width: 140px;
+    }
+}
+@media(max-width:420px) {
+    .container {
+        width: 200px;
+    }
+    .date {
+        font-size: 22px;
+    }
+    .card-eventlabel {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+    .eventcard {
+        min-width: 180px;
+        height: 220px;
+    }
+    .inputlabel {
+        font-size: 22px;
+        margin-left: 5%;
+        margin-right: 0px;
+    }
+    #inputrow {
+        margin-left: auto;
+    }
+    .bootstrap-select {
+        min-width: 140px;
+    }
+    #eventlabel {
+        margin-top: 0px;
+        font-size: 24px;
+        margin-left: 15%;
+    }
+    #events {
+        margin-left: 10%;
+    }
+    .dropdown-toggle.btn {
+        font-size: 18px;
+    }
+    .inputdiv {
+        margin-left:10%;
+    }
+}
